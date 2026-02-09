@@ -1,16 +1,18 @@
 Package: APCinteractionData
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Pre-Computed Null Distributions for 'APCinteraction'
 Version: 0.1.0
 Authors@R: c(
-    person(
-      "Jane", "Doe",
-      email = "jane@example.com",
-      role = c("aut", "cre")
-    )
-  )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+    person("Bao Khue", "Tran", role = c("aut", "cre"), email = "baokhuetran@outlook.com"),
+    person("Andrew", "Nguyen", role = c("aut", "ctb")),
+    person("Amy", "Wagaman", role = "ctb"),
+    person("Bradley", "Hartlaub", role = "ctb"))
+Description: Provides pre-computed null distributions (100,000 simulations each)
+    for the APCSSA and APCSSM nonparametric interaction test statistics
+    implemented in the 'APCinteraction' package. Covers two-way ANOVA designs
+    with 2 to 6 factor levels and 1 to 10 replications. Install this package
+    to enable fast p-value estimation without running simulations.
+License: MIT + file LICENSE
 Encoding: UTF-8
-LazyData: true
+URL: https://github.com/tranbaokhue/APCinteractionData
+BugReports: https://github.com/tranbaokhue/APCinteractionData/issues
